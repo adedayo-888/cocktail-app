@@ -1,10 +1,11 @@
 import React from 'react';
+import './index.css';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import SingleCocktail from './pages/SingleCocktail';
 import Error from './pages/Error';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 
 export default function App() {
   return (
